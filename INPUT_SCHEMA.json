@@ -1,0 +1,28 @@
+{
+  "title": "Lead Scraper Input",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "startUrls": {
+      "title": "Start URLs",
+      "type": "array",
+      "editor": "requestListSources",
+      "prefill": [
+        {
+          "url": "https://example.com"
+        }
+      ]
+    },
+    "maxPages": {
+      "title": "Maximum Pages",
+      "type": "integer",
+      "default": 25
+    },
+    "sameDomain": {
+      "title": "Stay on Same Domain",
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "required": ["startUrls"]
+}
