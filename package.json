@@ -1,0 +1,13 @@
+{
+  "name": "lead-scraper-actor",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "dependencies": {
+    "apify": "^3.2.6",
+    "crawlee": "^3.11.5",
+    "playwright": "^1.53.0"
+  }
+}
